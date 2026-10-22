@@ -1,0 +1,81 @@
+.lateral{
+    width: 30%;
+    padding: 30px;
+
+    background-color: #034e03;
+    color: white;
+
+    text-align: center;
+
+}
+.foto img{
+    width: 170px;
+    height: 170px;
+    margin: 0 auto 20px;
+    background-color: white;
+    color: #034e03;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+.lateral h3{
+    margin: 30px 0 15px;
+    font-size: 18px;
+    border-bottom: 1px solid white;
+    padding-bottom: 8px;
+}
+
+.curriculo{
+    display: flex;
+}
+
+.conteudo{
+    width: 70%;
+    padding: 40px;
+}
+
+.conteudo h1{
+    color: #034e03;
+
+    border-bottom: 2px solid #034e03;
+
+    padding-bottom: 8px;
+    margin-bottom: 15px;
+}
+
+.conteudo h2{
+    color: #034e03;
+}
+
+
+
+.conteudo section{
+    margin-bottom: 30px;
+}
+
+.item{
+    margin-bottom: 25px;
+}
+
+.item span{
+    color: #777777;
+    font-size: 14px;
+}
+
+/*RESPONSIVIDADE*/
+
+@media (max-width: 700px){
+    .curriculo{
+        flex-direction: column;
+    }
+
+    .lateral,
+    .conteudo{
+        width: 100%;
+    }
+}
